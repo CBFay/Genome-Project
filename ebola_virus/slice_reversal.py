@@ -9,3 +9,6 @@ inverse = "".join([compliment[base] for base in gene])
 # slice reversal
 sample = gene[:10]
 reverse = sample[::-1]
+
+# use slice notation to skip elements
+skips = sample[::2]
